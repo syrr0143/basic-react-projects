@@ -1,0 +1,61 @@
+body {
+  background-color: wheat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App h1 {
+  text-align: center;
+}
+
+.passwordInputs {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.passwordLength {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.otherOptions {
+  display: block;
+}
+
+.passwordLength input {
+  width: auto;
+  height: 5vh;
+  margin-right: 1rem;
+}
+
+.passwordInputs input {
+  width: 75%;
+  height: 5vh;
+  margin-right: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.passwordBox {
+  margin: 0 auto;
+  width: 50vw;
+  height: max-content;
+  background-color: white;
+}
+
+.btndiv {
+  display: flex;
+  justify-content: center;
+}
+
+.generate {
+
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 1rem;
+}

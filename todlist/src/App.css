@@ -1,0 +1,65 @@
+form {
+  width: 80vw;
+  display: flex;
+  gap: 1rem;
+  margin: auto;
+}
+
+
+form input {
+  flex-basis: 80%;
+  height: 2.5rem;
+}
+
+form button {
+  flex-basis: 20%;
+}
+
+.todolist {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  padding: 0px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.5rem;
+  /* background: black; */
+  margin: auto;
+  /* color: white; */
+  border-radius: 1rem;
+
+}
+
+.todolist ul li {
+  padding: 10px;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  background: rgb(46, 45, 45);
+  color: white;
+
+}
+
+.todolist ul li:hover {
+  background-color: gray;
+
+}
+
+.todolist ul {
+  padding: 0;
+
+}
+
+.completed {
+  text-decoration: line-through;
+  text-decoration-color: limegreen;
+}
+
+
+.todolist ul li span {
+  position: absolute;
+  cursor: pointer;
+  right: 12vw;
+  color: red;
+
+}
